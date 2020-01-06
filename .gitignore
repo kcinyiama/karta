@@ -1,0 +1,5 @@
+Maven.*
+.idea
+target/
+.DS_Store
+karta.iml

@@ -1,0 +1,18 @@
+<!--
+  ~ Copyright 2020 (c) Inyiama Kossy
+  -->
+
+<karta xmlns="http://kossy18.github.io/schema/karta">
+    <converter name="numConverter" value="com.github.kossy18.karta.converters.NumberConverter"/>
+
+    <class name="com.github.kossy18.karta.entity.Product">
+        <property name="id" column="id" converter-ref="numConverter" converter-data="long" />
+        <property name="name" column="description" />
+        <property name="quantity" column="quantity" converter-ref="numConverter" converter-data="integer" />
+        <property name="price">
+            <columns>
+                <column name="price" converter-ref="numConverter" converter-data="float"/>
+            </columns>
+        </property>
+    </class>
+</karta>
