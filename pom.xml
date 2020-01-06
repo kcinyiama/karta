@@ -4,7 +4,7 @@
 
     <groupId>com.github.kossy18</groupId>
     <artifactId>karta</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>karta</name>
@@ -30,7 +30,7 @@
         <connection>scm:git:git://github.com/kossy18/karta.git</connection>
         <developerConnection>scm:git:ssh://github.com:kossy18/karta.git</developerConnection>
         <url>http://github.com/kossy18/karta</url>
-      <tag>karta-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
